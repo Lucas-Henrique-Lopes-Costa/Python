@@ -1,2 +1,16 @@
-# Introducao Inteligencia Artificial
- Introdução: Inteligencia Artificial | Machine Learning | Data Science | Deep Learning
+# Introdução a Inteligência Artificial
+
+Use os comandos:
+
+``
+pip install pandas
+``
+``
+pip install sklearn
+``
+``
+pip install seaborn
+``
+``
+pip install matplotlib
+``
