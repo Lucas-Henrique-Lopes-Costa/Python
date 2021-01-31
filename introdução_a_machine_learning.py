@@ -37,9 +37,9 @@ modelo.predict([animal_misterioso]) # ele vai predizer qual é o animal usando u
 
 # 0 = não 
 # 1 = sim
-misterio1: (0, 0, 0) # porco
-misterio2: (0, 0, 1) # cachorro
-misterio3: (0, 1, 0) # porco
+misterio1 = (0, 0, 0) # porco
+misterio2 = (0, 0, 1) # cachorro
+misterio3 = (0, 1, 0) # porco
 
 treinoCaracteristicas = [misterio1, misterio2, misterio3]
 classificação = [1, 0, 1] # eu sei que o primeiro é porco = 1 ou cachorro = 0
@@ -55,15 +55,15 @@ print('Sua taxa de acerto foi de ' + str(taxa_de_acerto) + "%")
 
 # tentando melhorar o acerto
 
-misterio1: (0, 0, 1) # cachorro
-misterio2: (1, 0, 1) # cachorro
-misterio3: (1, 1, 0) # cachorro
+misterio1 = (0, 0, 1) # cachorro
+misterio2 = (1, 0, 1) # cachorro
+misterio3 = (1, 1, 0) # cachorro
 
 treinoCaracteristicas = [misterio1, misterio2, misterio3]
 classificação = [1, 1, 1] # eu sei que o primeiro é porco = 1 ou cachorro = 0
 
 previsoes = modelo.predict(treinoCaracteristicas)
-previsoes
+print(previsoes)
 
 # para saber o quão certo ele está
 from sklearn.metrics import accuracy_score
