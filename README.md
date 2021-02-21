@@ -1,6 +1,6 @@
-# Introdução a Inteligência Artificial
+# [Introdução a Inteligência Artificial](https://youtube.com/playlist?list=PLMdYygf53DP7YZiFUtGTWJJlvynRyrna-)
 
-## Use os comandos para iniciar na sua máquina:
+## Use os comandos para iniciar na sua máquina - Usando Python:
 
 ``
 pip install pandas
